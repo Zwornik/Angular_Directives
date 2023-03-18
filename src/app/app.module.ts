@@ -2,10 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { MyClassDirective } from './my-class.directive';
+import { TimesDirective } from './times.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MyClassDirective,
+    TimesDirective
   ],
   imports: [
     BrowserModule
