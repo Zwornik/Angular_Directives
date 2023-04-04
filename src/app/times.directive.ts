@@ -17,4 +17,3 @@ export class TimesDirective {
     }
   }
 }
-b
